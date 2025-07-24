@@ -8,3 +8,18 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* hero section style  */
+.hero-content>h1{
+    line-height: 5rem;
+}
+
+
+
+
+
+@media screen and (max-width:640px) {
+    .hero-content>h1{
+    line-height: 2rem;
+}
+}
