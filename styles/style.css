@@ -51,6 +51,9 @@
     width: 100%;
 } */
 
+.social-media{
+    height: 40px;
+}
 
 
 @media screen and (max-width:640px) {
@@ -59,5 +62,9 @@
 }
 .subscribe-container{
     height: 275px;
+}
+.footer-section div{
+    margin-bottom: 2rem;
+    padding: 0 1rem;
 }
 }
