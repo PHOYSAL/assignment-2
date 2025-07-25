@@ -40,13 +40,24 @@
     border-radius: 20px;
 }
 
-
-
+.subscribe-container{
+    height: 533px;
+    background: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* .subscribe-container>div:first-child{
+    width: 100%;
+} */
 
 
 
 @media screen and (max-width:640px) {
     .hero-content>h1{
     line-height: 2rem;
+}
+.subscribe-container{
+    height: 275px;
 }
 }
